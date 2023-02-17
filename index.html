@@ -1,0 +1,666 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CASHBACK || HOME</title>
+  <link rel="stylesheet" href="src/css/bootstrap.min.css">
+  <link rel="stylesheet" href="src/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="src/css/main.css">
+  <style>
+    body {
+        overflow-x: hidden !important;
+      }
+  </style>
+</head>
+
+<body>
+  <!-- HEADER  -->
+  <header>
+    <nav class="navbar navbar-expand-lg py-0">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img class="w-100" src="src/images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler border  border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex nav_search" role="search">
+            <div class=" btn_icon"><img class="mw-100 img-fluid" src="src/images/search_left.png" alt="btn_icon"></div>
+            <input class="form-control shadow-none rounded rounded-0 bg-transparent" type="search"
+              placeholder="Найти товары или магазин" aria-label="Search">
+            <button class="btn" type="submit">Search</button>
+          </form>
+
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-flex mobo_link_01" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <div class="dropdown_icon"><img class="mw-100 img-fluid" src="src/images/flag.png" alt=""></div>
+                <span>Литва</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle mobo_link_02" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Русский
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item mr_16">
+              <a class="btn_secondary" href="affiliate_program.html">Вход</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn_primary" href="store_details.html">Регистрация</a>
+            </li>
+
+          </ul>
+
+
+          <div class="d-block d-lg-none">
+            <nav class="navbar_bottom d-block py-4">
+              <div class="container align-items-center h-100">
+                <ul class="d-flex align-items-center h-100 flex-wrap justify-content-center">
+                  <li class="nav-item">
+                    <a href="store_details.html" class="navbar_link"><span><img class="navbar_link_icon" src="src/images/cart_round.png"
+                          alt=""></span> Магазины с кэшбеком</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="stores.html" class="navbar_link"><span><img class="navbar_link_icon" src="src/images/shopping_cart_round.png"
+                          alt=""></span> Поиск товара с кэшбеком</a>
+                  </li>
+                  <div class="ms-lg-auto">
+                    <li class="nav-item">
+                      <a href="affiliate_program.html" class="btn_ui"><span><img class="navbar_link_icon" src="src/images/profile_plus_round.png"
+                            alt=""></span>Партнерская Программа</a>
+                    </li>
+                  </div>
+                </ul>
+        
+        
+              </div>
+            </nav>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar_bottom">
+      <div class="container align-items-center h-100">
+        <ul class="d-flex align-items-center h-100">
+          <li class="nav-item">
+            <a href="store_details.html" class="navbar_link"><span><img class="navbar_link_icon" src="src/images/cart_round.png"
+                  alt=""></span> Магазины с кэшбеком</a>
+          </li>
+          <li class="nav-item">
+            <a href="stores.html" class="navbar_link"><span><img class="navbar_link_icon" src="src/images/shopping_cart_round.png"
+                  alt=""></span> Поиск товара с кэшбеком</a>
+          </li>
+          <div class="ms-auto">
+            <li class="nav-item">
+              <a href="affiliate_program.html" class="btn_ui"><span><img class="navbar_link_icon" src="src/images/profile_plus_round.png"
+                    alt=""></span>Партнерская Программа</a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- HEADER END -->
+  <main class="home">
+    <!-- HERO  -->
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 mx-auto">
+            <h1 class="hero_title">Найди свой Кэшбек</h1>
+            <p class="hero_contet">Более 30 стран, по всему миру, уже сейчас пользуются нашим сервисом <br>
+              и получают CASHBACK от каждой покупки</p>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="hero_search_bar">
+              <form class="d-flex hero_search" role="search">
+                <input class="form-control shadow-none rounded rounded-0 bg-transparent border-0" type="search"
+                  placeholder="Найти товары или магазины с кэшбэком" aria-label="Search">
+                <div class="hero_btn_icon"><img src="src/images/search_black.png" alt="btn_icon"></div>
+              </form>
+              <div class="tags">
+                <div class="tag">Aliexpress</div>
+                <div class="tag">eBay</div>
+                <div class="tag">Amazon</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HERO END -->
+    <!-- STORIES  -->
+    <section class="stores">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="stores_title">
+              <span><img class="stores_title_icon" src="./src/images/cart_round_pink.png" alt=""></span>
+              1288 магазинов с кэшбэком
+            </h1>
+          </div>
+        </div>
+        <div class="row stores_cards">
+
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="card_header">
+                  <div class="card_label">4.9x</div>
+                  <div class="card_label_cashback">
+                    <div class="card_per_cashback">9.9%</div>
+                    <div class="card_text_cashback">Кэшбек</div>
+                  </div>
+                </div>
+                <div class="card_logo">
+                  <img class="img-fluid" src="src/images/card_img_01.png" alt="card logo">
+                </div>
+                <div class="card_footer">
+                  <div class="card_tags">Электроника, смартфоны иdwjdckcn</div>
+                  <div class="card_btn"><span><img src="src/images/diamond.png" alt="diamond"></span>245</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="card_header">
+                  <div class="card_label">4.9x</div>
+                  <div class="card_label_cashback">
+                    <div class="card_per_cashback">9.9%</div>
+                    <div class="card_text_cashback">Кэшбек</div>
+                  </div>
+                </div>
+                <div class="card_logo">
+                  <img class="img-fluid" src="src/images/card_img_02.png" alt="card logo">
+                </div>
+                <div class="card_footer">
+                  <div class="card_tags">Электроника, смартфоны иdwjdckcn</div>
+                  <div class="card_btn"><span><img src="src/images/diamond.png" alt="diamond"></span>245</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="card_header">
+                  <div class="card_label">4.9x</div>
+                  <div class="card_label_cashback">
+                    <div class="card_per_cashback">9.9%</div>
+                    <div class="card_text_cashback">Кэшбек</div>
+                  </div>
+                </div>
+                <div class="card_logo">
+                  <img class="img-fluid" src="src/images/card_img_03.png" alt="card logo">
+                </div>
+                <div class="card_footer">
+                  <div class="card_tags">Электроника, смартфоны иdwjdckcn</div>
+                  <div class="card_btn"><span><img src="src/images/diamond.png" alt="diamond"></span>245</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="card_header">
+                  <div class="card_label">4.9x</div>
+                  <div class="card_label_cashback">
+                    <div class="card_per_cashback">9.9%</div>
+                    <div class="card_text_cashback">Кэшбек</div>
+                  </div>
+                </div>
+                <div class="card_logo">
+                  <img class="img-fluid" src="src/images/card_img_04.png" alt="card logo">
+                </div>
+                <div class="card_footer">
+                  <div class="card_tags">Электроника, смартфоны иdwjdckcn</div>
+                  <div class="card_btn"><span><img src="src/images/diamond.png" alt="diamond"></span>245</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="card_header">
+                  <div class="card_label">4.9x</div>
+                  <div class="card_label_cashback">
+                    <div class="card_per_cashback">9.9%</div>
+                    <div class="card_text_cashback">Кэшбек</div>
+                  </div>
+                </div>
+                <div class="card_logo">
+                  <img class="img-fluid" src="src/images/card_img_05.png" alt="card logo">
+                </div>
+                <div class="card_footer">
+                  <div class="card_tags">Электроника, смартфоны иdwjdckcn</div>
+                  <div class="card_btn"><span><img src="src/images/diamond.png" alt="diamond"></span>245</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="card_header">
+                  <div class="card_label">4.9x</div>
+                  <div class="card_label_cashback">
+                    <div class="card_per_cashback">9.9%</div>
+                    <div class="card_text_cashback">Кэшбек</div>
+                  </div>
+                </div>
+                <div class="card_logo">
+                  <img class="img-fluid" src="src/images/card_img_06.png" alt="card logo">
+                </div>
+                <div class="card_footer">
+                  <div class="card_tags">Электроника, смартфоны иdwjdckcn</div>
+                  <div class="card_btn"><span><img src="src/images/diamond.png" alt="diamond"></span>245</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="card_header">
+                  <div class="card_label">4.9x</div>
+                  <div class="card_label_cashback">
+                    <div class="card_per_cashback">9.9%</div>
+                    <div class="card_text_cashback">Кэшбек</div>
+                  </div>
+                </div>
+                <div class="card_logo">
+                  <img class="img-fluid" src="src/images/card_img_07.png" alt="card logo">
+                </div>
+                <div class="card_footer">
+                  <div class="card_tags">Электроника, смартфоны иdwjdckcn</div>
+                  <div class="card_btn"><span><img src="src/images/diamond.png" alt="diamond"></span>245</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="card_header">
+                  <div class="card_label">4.9x</div>
+                  <div class="card_label_cashback">
+                    <div class="card_per_cashback">9.9%</div>
+                    <div class="card_text_cashback">Кэшбек</div>
+                  </div>
+                </div>
+                <div class="card_logo">
+                  <img class="img-fluid" src="src/images/card_img_08.png" alt="card logo">
+                </div>
+                <div class="card_footer">
+                  <div class="card_tags">Электроника, смартфоны иdwjdckcn</div>
+                  <div class="card_btn"><span><img src="src/images/diamond.png" alt="diamond"></span>245</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="card_header">
+                  <div class="card_label">4.9x</div>
+                  <div class="card_label_cashback">
+                    <div class="card_per_cashback">9.9%</div>
+                    <div class="card_text_cashback">Кэшбек</div>
+                  </div>
+                </div>
+                <div class="card_logo">
+                  <img class="img-fluid" src="src/images/card_img_09.png" alt="card logo">
+                </div>
+                <div class="card_footer">
+                  <div class="card_tags">Электроника, смартфоны иdwjdckcn</div>
+                  <div class="card_btn"><span><img src="src/images/diamond.png" alt="diamond"></span>245</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="card_header">
+                  <div class="card_label">4.9x</div>
+                  <div class="card_label_cashback">
+                    <div class="card_per_cashback">9.9%</div>
+                    <div class="card_text_cashback">Кэшбек</div>
+                  </div>
+                </div>
+                <div class="card_logo">
+                  <img class="img-fluid" src="src/images/card_img_10.png" alt="card logo">
+                </div>
+                <div class="card_footer">
+                  <div class="card_tags">Электроника, смартфоны иdwjdckcn</div>
+                  <div class="card_btn"><span><img src="src/images/diamond.png" alt="diamond"></span>245</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="card_header">
+                  <div class="card_label">4.9x</div>
+                  <div class="card_label_cashback">
+                    <div class="card_per_cashback">9.9%</div>
+                    <div class="card_text_cashback">Кэшбек</div>
+                  </div>
+                </div>
+                <div class="card_logo">
+                  <img class="img-fluid" src="src/images/card_img_11.png" alt="card logo">
+                </div>
+                <div class="card_footer">
+                  <div class="card_tags">Электроника, смартфоны иdwjdckcn</div>
+                  <div class="card_btn"><span><img src="src/images/diamond.png" alt="diamond"></span>245</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="card_header">
+                  <div class="card_label">4.9x</div>
+                  <div class="card_label_cashback">
+                    <div class="card_per_cashback">9.9%</div>
+                    <div class="card_text_cashback">Кэшбек</div>
+                  </div>
+                </div>
+                <div class="card_logo">
+                  <img class="img-fluid" src="src/images/card_img_12.png" alt="card logo">
+                </div>
+                <div class="card_footer">
+                  <div class="card_tags">Электроника, смартфоны иdwjdckcn</div>
+                  <div class="card_btn"><span><img src="src/images/diamond.png" alt="diamond"></span>245</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="card_header">
+                  <div class="card_label">4.9x</div>
+                  <div class="card_label_cashback">
+                    <div class="card_per_cashback">9.9%</div>
+                    <div class="card_text_cashback">Кэшбек</div>
+                  </div>
+                </div>
+                <div class="card_logo">
+                  <img class="img-fluid" src="src/images/card_img_13.png" alt="card logo">
+                </div>
+                <div class="card_footer">
+                  <div class="card_tags">Электроника, смартфоны иdwjdckcn</div>
+                  <div class="card_btn"><span><img src="src/images/diamond.png" alt="diamond"></span>245</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="card_header">
+                  <div class="card_label">4.9x</div>
+                  <div class="card_label_cashback">
+                    <div class="card_per_cashback">9.9%</div>
+                    <div class="card_text_cashback">Кэшбек</div>
+                  </div>
+                </div>
+                <div class="card_logo">
+                  <img class="img-fluid" src="src/images/card_img_14.png" alt="card logo">
+                </div>
+                <div class="card_footer">
+                  <div class="card_tags">Электроника, смартфоны иdwjdckcn</div>
+                  <div class="card_btn"><span><img src="src/images/diamond.png" alt="diamond"></span>245</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="card_header">
+                  <div class="card_label">4.9x</div>
+                  <div class="card_label_cashback">
+                    <div class="card_per_cashback">9.9%</div>
+                    <div class="card_text_cashback">Кэшбек</div>
+                  </div>
+                </div>
+                <div class="card_logo">
+                  <img class="img-fluid" src="src/images/card_img_15.png" alt="card logo">
+                </div>
+                <div class="card_footer">
+                  <div class="card_tags">Электроника, смартфоны иdwjdckcn</div>
+                  <div class="card_btn"><span><img src="src/images/diamond.png" alt="diamond"></span>245</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="card_header">
+                  <div class="card_label">4.9x</div>
+                  <div class="card_label_cashback">
+                    <div class="card_per_cashback">9.9%</div>
+                    <div class="card_text_cashback">Кэшбек</div>
+                  </div>
+                </div>
+                <div class="card_logo">
+                  <img class="img-fluid" src="src/images/card_img_16.png" alt="card logo">
+                </div>
+                <div class="card_footer">
+                  <div class="card_tags">Электроника, смартфоны иdwjdckcn</div>
+                  <div class="card_btn"><span><img src="src/images/diamond.png" alt="diamond"></span>245</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="row justify-content-center">
+          <a href="" class="see_all_stores">
+            <span><img class="img-fluid" src="src/images/see_all.png" alt="see_all"></span>
+            Все магазины с кэшбеком</a>
+        </div>
+      </div>
+    </section>
+    <!-- STORIES END  -->
+    <!-- ADS  -->
+    <section class="ads">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="ads_img">
+              <img class="mw-100 img-fluid" src="src/images/ads.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ADS END -->
+    <!-- PROMO -->
+    <section class="promo">
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-6 col-md-8 col-sm-12 g-0 d-flex align-items-end">
+            <h1 class="promo_title">Скидки и промокоды
+              <span><img class="img-fluid promo_title_icon" src="src/images/tag_fill_round.png" alt="btn_icon"></span>
+            </h1>
+          </div>
+          <div class="col-md g-0 slide_control swiper mySwiper">
+            <div class="swiper-button-prev"></div>
+            <div>
+              <a href="#" class="slide_btn_content">60 Товаров</a>
+            </div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col g-0">
+            <!-- Swiper -->
+            <div class="swiper mySwiper promo__slide">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="promo__slide_img">
+                    <img class="mw-100 img-fluid" src="src/images/card_img_01.png" alt="card_img_01">
+                  </div>
+                  <div>
+                    <div class="promo__slide_content">
+                      <p>Apple промокод: скидка 15%
+                        на бренд <span>Apple Watch</span></p>
+                    </div>
+                    <div class="promo__slide_brand_discount">
+                      <p class="percentage mb-0">-15%</p>
+                      <img class="percentage_next_icon" src="src/images/brand_name.png" alt="brand_name">
+                      <p class="brand_name mb-0">Apple Watch</p>
+                    </div>
+                    <div class="promo__slide_brand_discount_small">2.5% <span>кэшбек</span></div>
+                    <a href="#" class="slide_brand_discount_btn">Подробнее</a>
+                  </div>
+                </div>
+                
+                <div class="swiper-slide">
+                  <div class="promo__slide_img">
+                    <img class="mw-100 img-fluid" src="src/images/Frame_amzon.png" alt="card_img_01">
+                  </div>
+                  <div>
+                    <div class="promo__slide_content">
+                      <p>Apple промокод: скидка 15%
+                        на бренд <span>Apple Watch</span></p>
+                    </div>
+                    <div class="promo__slide_brand_discount">
+                      <p class="percentage mb-0">-15%</p>
+                      <img class="percentage_next_icon" src="src/images/brand_name.png" alt="brand_name">
+                      <p class="brand_name mb-0">Apple Watch</p>
+                    </div>
+                    <div class="promo__slide_brand_discount_small">2.5% <span>кэшбек</span></div>
+                    <a href="#" class="slide_brand_discount_btn">Подробнее</a>
+                  </div>
+                </div>
+                
+                <div class="swiper-slide">
+                  <div class="promo__slide_img">
+                    <img class="mw-100 img-fluid" src="src/images/card_img_05.png" alt="card_img_01">
+                  </div>
+                  <div>
+                    <div class="promo__slide_content">
+                      <p>Apple промокод: скидка 15%
+                        на бренд <span>Apple Watch</span></p>
+                    </div>
+                    <div class="promo__slide_brand_discount">
+                      <p class="percentage mb-0">-15%</p>
+                      <img class="percentage_next_icon" src="src/images/brand_name.png" alt="brand_name">
+                      <p class="brand_name mb-0">Apple Watch</p>
+                    </div>
+                    <div class="promo__slide_brand_discount_small">2.5% <span>кэшбек</span></div>
+                    <a href="#" class="slide_brand_discount_btn">Подробнее</a>
+                  </div>
+                </div>
+                
+                <div class="swiper-slide">
+                  <div class="promo__slide_img">
+                    <img class="mw-100 img-fluid" src="src/images/card_img_10.png" alt="card_img_01">
+                  </div>
+                  <div>
+                    <div class="promo__slide_content">
+                      <p>Apple промокод: скидка 15%
+                        на бренд <span>Apple Watch</span></p>
+                    </div>
+                    <div class="promo__slide_brand_discount">
+                      <p class="percentage mb-0">-15%</p>
+                      <img class="percentage_next_icon" src="src/images/brand_name.png" alt="brand_name">
+                      <p class="brand_name mb-0">Apple Watch</p>
+                    </div>
+                    <div class="promo__slide_brand_discount_small">2.5% <span>кэшбек</span></div>
+                    <a href="#" class="slide_brand_discount_btn">Подробнее</a>
+                  </div>
+                </div>
+                
+                <div class="swiper-slide">
+                  <div class="promo__slide_img">
+                    <img class="mw-100 img-fluid" src="src/images/card_img_12.png" alt="card_img_01">
+                  </div>
+                  <div>
+                    <div class="promo__slide_content">
+                      <p>Apple промокод: скидка 15%
+                        на бренд <span>Apple Watch</span></p>
+                    </div>
+                    <div class="promo__slide_brand_discount">
+                      <p class="percentage mb-0">-15%</p>
+                      <img class="percentage_next_icon" src="src/images/brand_name.png" alt="brand_name">
+                      <p class="brand_name mb-0">Apple Watch</p>
+                    </div>
+                    <div class="promo__slide_brand_discount_small">2.5% <span>кэшбек</span></div>
+                    <a href="#" class="slide_brand_discount_btn">Подробнее</a>
+                  </div>
+                </div>
+                
+                <div class="swiper-slide">
+                  <div class="promo__slide_img">
+                    <img class="mw-100 img-fluid" src="src/images/card_img_07.png" alt="card_img_01">
+                  </div>
+                  <div>
+                    <div class="promo__slide_content">
+                      <p>Apple промокод: скидка 15%
+                        на бренд <span>Apple Watch</span></p>
+                    </div>
+                    <div class="promo__slide_brand_discount">
+                      <p class="percentage mb-0">-15%</p>
+                      <img class="percentage_next_icon" src="src/images/brand_name.png" alt="brand_name">
+                      <p class="brand_name mb-0">Apple Watch</p>
+                    </div>
+                    <div class="promo__slide_brand_discount_small">2.5% <span>кэшбек</span></div>
+                    <a href="#" class="slide_brand_discount_btn">Подробнее</a>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- PROMO END -->
+  </main>
+  <script src="src/js/bootstrap.bundle.min.js"></script>
+  <script src="src/js/swiper-bundle.min.js"></script>
+  <script src="src/js/main.js"></script>
+</body>
+
+</html>
